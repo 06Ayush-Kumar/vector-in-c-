@@ -1,0 +1,24 @@
+#ARGS:
+
+#YE USE ISLIYE KARTE HAI KI HUM MULTIPLE VALUES FUCNTION KI ANDAR DE SAKE
+
+def total_sum(*arg):
+    sum=0
+    for i in arg:
+        sum+=i
+    return sum
+print(total_sum(1,2,4,5,78))
+
+def name(*arg):
+    return(arg) 
+    print(arg) #ek bar print co run kar aur return ko comment kar maja aega ,none bhi show karega lol
+print(name("ayush","rohan","mohan"))
+
+#[*arg] ko kuch bhi likh sakta jaise example:
+
+def product(*ayush):
+    product=1
+    for i in ayush:
+        product=product*i
+    return product
+print(product(2,4,6,7,8))
