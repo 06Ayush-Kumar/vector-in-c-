@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+#include<vector>
+using str=string;
+int main(){
+    vector<int> integer={1,2,4,5,6,78};
+    int a=integer.size();   // size of an vector
+    cout<<a<<"\n";
+    integer[2]=7;   // changing the element in 2nd position to 7
+    for(int i:integer){
+        cout<<i<<"\t";
+    }
+    return 0;
